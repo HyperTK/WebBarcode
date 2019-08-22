@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+        <title>template!</title>
+    {% endif %}
+</div>
+{% endblock %}
